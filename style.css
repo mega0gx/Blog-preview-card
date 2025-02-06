@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DotGothic16&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Rubik+Glitch&family=Sriracha&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{ font-size: 16px;}
+body{
+    font-family: "Figtree", serif;
+    font-weight: 500;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.container{
+    width: 90%; 
+    max-width: 400px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: 8px 8px 0px black; 
+}
+/* img */
+.container .image img{
+    border-radius: 10px;
+    width: 100%;
+}
+/* btn */
+.container .btn button{
+    background-color: hsl(47, 88%, 63%);
+    width: 25%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 800;
+    text-align: center;
+}
+.container .btn button:hover,
+.container .btn button:focus{
+    background-color: hsl(47, 54%, 19%);
+    color: white;
+}
+/* text */
+.container .title{
+    font-weight: 800;
+}
+.container .desc{
+    color: hsl(0, 0%, 42%);
+}
+/* profile */
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+}
+.profile p{
+    font-weight: 800;
+}
